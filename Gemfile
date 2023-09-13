@@ -9,7 +9,8 @@ gem "rails", "~> 7.0.7"
 
 gem "puma", "~> 5.0"
 
-gem 'ruby-oci8'
+gem 'oci'
+
 gem  "activerecord-oracle_enhanced-adapter"
 
 gem 'rails_12factor'
