@@ -13,7 +13,7 @@ gem 'ruby-oci8'
 
 gem  "activerecord-oracle_enhanced-adapter"
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 gem 'rack-cors', :require => 'rack/cors'
 
