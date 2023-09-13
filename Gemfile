@@ -9,6 +9,8 @@ gem "rails", "~> 7.0.7"
 
 gem "puma", "~> 5.0"
 
+gem 'rails_12factor'
+
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'bcrypt', '~> 3.1.7'

@@ -3,3 +3,10 @@ development:
     database: "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=103.12.1.155)(PORT=1521))(CONNECT_DATA=(SID=xe)))"          
     username: MISVPAY
     password: MISVPAY@123
+
+
+production:
+    adapter: oracle_enhanced
+    database: "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=103.12.1.155)(PORT=1521))(CONNECT_DATA=(SID=xe)))"          
+    username: MISVPAY
+    password: MISVPAY@123
