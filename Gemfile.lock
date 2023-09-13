@@ -85,11 +85,9 @@ GEM
       activesupport (>= 5.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    inifile (3.0.0)
     io-console (0.6.0)
     irb (1.7.4)
       reline (>= 0.3.6)
-    json (2.6.3)
     jwt (2.7.1)
     loofah (2.21.3)
       crass (~> 1.0.2)
@@ -116,10 +114,6 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.3-x64-mingw-ucrt)
       racc (~> 1.4)
-    oci (2.18.0)
-      inifile (~> 3.0, >= 3.0.0)
-      json (>= 1.4.6, < 3.0.0)
-      jwt (~> 2.1)
     puma (5.6.6)
       nio4r (~> 2.0)
     racc (1.7.1)
@@ -186,7 +180,6 @@ DEPENDENCIES
   bootsnap
   debug
   jwt
-  oci
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.7)
