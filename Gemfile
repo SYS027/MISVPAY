@@ -10,6 +10,7 @@ gem "rails", "~> 7.0.7"
 gem "puma", "~> 5.0"
 
 gem 'ruby-oci8'
+gem  "activerecord-oracle_enhanced-adapter"
 
 gem 'rails_12factor'
 
@@ -19,7 +20,6 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
-gem  "activerecord-oracle_enhanced-adapter"
 
 gem "bootsnap", require: false
 
