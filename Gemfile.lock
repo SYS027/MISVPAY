@@ -184,7 +184,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 7.0.7)
   rails_12factor
-  ruby-oci8
+  ruby-oci8 (~> 2.2.12)
   tzinfo-data
 
 RUBY VERSION
