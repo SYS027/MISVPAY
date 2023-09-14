@@ -17,7 +17,7 @@ Rails.application.configure do
   # Enable server timing
   config.server_timing = true
 
-  config.secret_key_base = ENV["8ba0bb76e0d10488f9b694fd69e9f354327badcdd2007a96eef88a96c5522fecee406850585cb12f976088ec0d9bc889da91996db955fcab78590ed0777e48ae"]
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.

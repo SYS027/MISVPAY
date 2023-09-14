@@ -15,7 +15,7 @@ Rails.application.configure do
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
 
-  config.secret_key_base = ENV["8ba0bb76e0d10488f9b694fd69e9f354327badcdd2007a96eef88a96c5522fecee406850585cb12f976088ec0d9bc889da91996db955fcab78590ed0777e48ae"]
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
@@ -41,7 +41,7 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ "http://example.com", /http:\/\/example.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # config.force_ssl = true
+  config.force_ssl = true
 
   # Include generic and useful information about system operation, but avoid logging too much
   # information to avoid inadvertent exposure of personally identifiable information (PII).
@@ -54,8 +54,8 @@ Rails.application.configure do
   # config.cache_store = :mem_cache_store
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
-  # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "misvpay_project_production"
+  config.active_job.queue_adapter     = :resque
+  config.active_job.queue_name_prefix = "misvpay_project_production"
 
   config.action_mailer.perform_caching = false
 
