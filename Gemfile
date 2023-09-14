@@ -11,7 +11,7 @@ gem "puma", "~> 5.0"
 
 
 gem  "activerecord-oracle_enhanced-adapter"
-gem 'ruby-oci8', '~> 2.2'
+gem 'ruby-oci8', '>=0'
 
 
 gem 'rails_12factor', group: :production
